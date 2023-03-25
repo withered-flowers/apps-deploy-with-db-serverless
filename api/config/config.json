@@ -18,6 +18,12 @@
     "ssl": true,
     "dialect": "postgres",
     "protocol": "postgres",
+    "pool": {
+      "max": 2,
+      "min": 0,
+      "idle": 0,
+      "acquire": 3000
+    },
     "dialectOptions": {
       "ssl": {
         "require": true,
